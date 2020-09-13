@@ -1,0 +1,34 @@
+// ---------------------- CONNEXIONS ELECTRONIQUES---------------------------
+ 
+// Capteur humidite et temperature
+// Connecter pin 1 du capteur au +5V
+// Connecter pin 2 du capteur a DHTPIN 
+// Connect pin 3 a GND
+// Connecter une resistance 10K de DHTPIN a +5V
+
+// Capteur humidite sol
+// Connecter pin + a pin allumage_captsol qui sert d'allumage intermittent du capteur (pour pb corrosion)
+// Connecter pin - a GND
+// Connect pin S au data = capteurhumsol
+
+// Capteur photoresistane
+// Connecter patte 1 a  pin analogique capteur_lum
+// Connecter patte 1 a resistance 10K puis vers GND
+// Connecter patte 2  a +5V
+
+// Capteur direction du vent
+// Connecter pin 1 (fil rouge) du capteur a capteur_direction
+// Connecter pin 2 (fil vert) a GND
+// Connecter pin 1 (fil rouge) du capteur vers resistance 10K puis +5V
+
+// Capteur vitesse du vent
+// Connecter pin 1 (fil jaune) du capteur a capteur_vitessevent
+// Connecter pin 2 (fil vert) a +5V
+// Connecter pin 1 (fil jaune) du capteur vers resistance 10K puis GND
+// Connecter pin 1 (fil jaune) du capteur vers condensateur 100 nF puis GND pour eviter les rebonds
+
+// Capteur pluviometrie
+// Connecter pin 1 (fil rouge) du capteur a capteur_pluie
+// Connecter pin 2 (fil vert) a +5V
+// Connecter pin 1 (fil rouge) du capteur vers resistance 10K puis GND
+// Connecter pin 1 (fil rouge) du capteur vers condensateur 100 nF puis GND pour eviter les rebonds
